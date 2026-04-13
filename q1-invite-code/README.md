@@ -27,7 +27,7 @@ src/test/java/com/interview/invitecode/
 ## 业务规则
 
 - 每个邀请码属于一个活动（Campaign），有**使用次数上限**（`maxRedemptions`）
-- 每个邀请码有**过期时间**（`expiresAt`）
+- 每个邀请码有**过期时间**（`expiresAt`），到期当天即视为已过期，不可使用
 - 同一用户对同一个邀请码只能兑换**一次**
 - 已禁用的邀请码不能验证或兑换
 
